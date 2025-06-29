@@ -1,0 +1,109 @@
+.welcome-page {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.svg-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.welcome-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px 80px 60px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.welcome-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.welcome-text h1 {
+  font-size: 2.5rem;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.welcome-text p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.button-group a {
+  padding: 10px 24px; /* Smaller padding */
+  background-color: #6A5ACD; /* Purplish blue */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.button-group a:hover {
+  background-color: #fff;
+  color: #6A5ACD;
+  border: 2px solid #6A5ACD;
+}
+
+
+.welcome-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 30px; /* 🔽 Slight downward shift */
+}
+
+
+.welcome-image img {
+  width: 100%;
+  max-width: 500px; /* Increased size */
+  height: auto;
+}
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  margin-top: 30px;
+}
+
+.btn-blue {
+  background-color: #6A5ACD; /* Purplish blue */
+  color: white;
+  padding: 9px 22px; /* 🔽 Reduced height */
+
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btn-white {
+  background-color: white;
+  color: #6A5ACD;
+ padding: 9px 22px; /* 🔽 Reduced height */
+
+  border: 2px solid #6A5ACD;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}

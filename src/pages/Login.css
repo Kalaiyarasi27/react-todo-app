@@ -1,0 +1,118 @@
+/* src/pages/Login.css */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1f5fc;
+  font-family: 'Poppins', sans-serif;
+  padding: 30px 15px;
+}
+
+.phone-mockup {
+  width: 400px;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 30px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-illustration {
+  width: 60%;         /* ⬅️ shrink width */
+  max-height: 160px;  /* ⬅️ limit height */
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.login-input {
+  width: 95%;              /* ⬅️ slightly smaller */
+  padding: 10px 15px;      /* ⬅️ more internal padding */
+  margin: 0 auto 12px;     /* ⬅️ center the input inside */
+  display: block;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+
+.login-remember {
+  text-align: left;
+  font-size: 13px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background: #1d3557;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.social-btn.google .auth-icon {
+  color: #0b0b0b;
+}
+
+.social-btn.apple .auth-icon {
+  color: #000;
+}
+
+.login-footer {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.login-footer a {
+  color: #1d3557;
+  font-weight: 500;
+  text-decoration: none;
+}
+.google-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+.error-msg {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
