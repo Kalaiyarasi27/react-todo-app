@@ -17,6 +17,6 @@ A sleek, smart, and minimal task manager built with React.js — designed to sim
 - Font Awesome Icons 🎯
 - LocalStorage for persistence 💾
 
-🌐	live demo https://kalaiyarasi27.github.io/react-project
+
 
 
